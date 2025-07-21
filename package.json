@@ -9,8 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "docker:build": "docker build -t john-lembke-campaign .",
-    "docker:run": "docker run -p 3000:80 john-lembke-campaign",
+    "docker:build": "docker build -t john-for-council .",
+    "docker:run": "docker run -p 3000:80 john-for-council",
     "docker:dev": "docker-compose -f docker-compose.dev.yml up --build",
     "docker:prod": "docker-compose up --build",
     "docker:stop": "docker-compose down"
